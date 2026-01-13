@@ -1,0 +1,7 @@
+.venv 
+
+# shell env variables
+.envrc
+
+# datasets
+nyc-yellow-taxi-trip-records-january-2024/
