@@ -31,6 +31,7 @@ pip install -r requirements.txt
 
 # Start Jupyter
 jupyter lab
+```
 
 ## 🔮 Future Experiments
 
@@ -43,6 +44,7 @@ jupyter lab
   ```python
   df.write.format("delta").save("/delta/nyc-taxi")
   spark.read.format("delta").load("/delta/nyc-taxi")
+  ```
 - [ ] **Photon engine comparison vs local CPU**
 
 ### Long-term (1-3 months)
